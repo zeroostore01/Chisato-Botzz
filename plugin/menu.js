@@ -38,7 +38,7 @@ const defaultMenu = {
   before: `
 ╔════════════════╗
 ╠➤👤𝙊𝙬𝙣𝙚𝙧 : ${global.ownername}
-╠➤💻𝘾𝙧𝙚𝙖𝙩𝙤𝙧 : YahyaGanzz
+╠➤💻𝘾𝙧𝙚𝙖𝙩𝙤𝙧 : 𝙇𝙚𝙫𝙞 𝙓𝙝𝙞𝙖𝙤
 ╠➤⏰𝙐𝙥𝙩𝙞𝙢𝙚 : %uptime
 ╠➤🗓️𝙏𝙖𝙣𝙜𝙜𝙖𝙡: %date
 ╚═══════╦════════╝
@@ -158,10 +158,10 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
     let url = `https://i.postimg.cc/nrMn3sMN/menu.jpg`
-    conn.sendHydrated(m.chat, text.trim(), 'YahyaGanzz', null, 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g', 'YOUTUBE MBY', '', '', [
-      ['𝗚𝗥𝗨𝗣 𝗕𝗢𝗧', '/donasi'],
-      ['?𝗝𝗔𝗦𝗔 𝗥𝗨𝗡?', '/sewa'],
-      ['!𝗢𝗪𝗡𝗘𝗥!', '/owner']
+    conn.sendHydrated(m.chat, text.trim(), '𝙇𝙀𝙑𝙄 𝙓𝙃𝙄𝘼𝙊', null, 'https://youtube.com/channel/UC2GOH5mCArh3E4J3sGFMC5g', 'YOUTUBE', '', '', [
+      ['Donasi', '/donasi'],
+      ['Sewa', '/sewa'],
+      ['Owner', '/owner']
     ], m)
     /*let url = `https://telegra.ph/file/ab1df70dfd5c2bac64da1.jpg`.trim()
     let res = await fetch(url)
@@ -176,7 +176,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'Website',
-                                    url: 'https://arivpns.github.io/'
+                                    url: 'tiktok.com/@leviatnansyah'
                                 }
                             }, {
                                 quickReplyButton: {
