@@ -8,7 +8,7 @@ global.owner = [
 ] 
 global.ownername = [['𝒁 𝑬 𝑹 𝑶']]
 global.namabot = [['𝒁 𝑬 𝑹 𝑶-𝘽𝙤𝙩𝙯𝙯']]
-global.ownerinsta = [['Zeroo']]
+global.ownerinsta = [['@wibu_indo_888816']]
 global.mods = [] 
 global.prems = []
 
